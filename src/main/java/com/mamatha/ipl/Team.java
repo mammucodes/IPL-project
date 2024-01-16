@@ -196,5 +196,17 @@ public class Team {
         return youngestPlayer;
     }
 
-
+    @Override
+    public String toString() {
+        return "Team{" +
+                "teamName='" + teamName + '\'' +
+                ", players=" + players +
+                ", battingCoachName='" + battingCoachName + '\'' +
+                ", bowlingCoachName='" + bowlingCoachName + '\'' +
+                ", totalNumberOfTrophies=" + totalNumberOfTrophies +
+                ", captain=" + captain +
+                ", viceCaptain=" + viceCaptain +
+                '}';
+    }
 }
+
